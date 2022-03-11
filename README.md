@@ -20,11 +20,11 @@ The script only work on Python 3 and must have an active internet connection (fo
 
 ## Recommended run order
 Run the script in the order of the functions:
-- a.) make_dictionary_match_uniprot_regex - A function for analysis of information between two different dataset : elm instances and elm classes by tsv format.
--	b.) download_uniport_seq - A function for download the species protein sequences of the unique uniprot id from uniprot server.
--	c.) apply_iupred_software - A function for run Iupred software for the purpose of predicting regions of protein that are in disorder area.
--	d.) disorder_value_motif_start_end - A function for search the motif in the protein sequnce by the Regex and integration to the result of the Iupred prediction for each motif.
--	e.) make_figures - A Function for creating figures based on the results of the analysis.
+- 1.) make_dictionary_match_uniprot_regex - A function for analysis of information between two different dataset : elm instances and elm classes by tsv format.
+-	2.) download_uniport_seq - A function for download the species protein sequences of the unique uniprot id from uniprot server.
+-	3.) apply_iupred_software - A function for run Iupred software for the purpose of predicting regions of protein that are in disorder area.
+-	4.) disorder_value_motif_start_end - A function for search the motif in the protein sequnce by the Regex and integration to the result of the Iupred prediction for each motif.
+-	5.) make_figures - A Function for creating figures based on the results of the analysis.
 -	makdir - A function for creating a directory even if it already exists.
 
 In order that the function "apply_iupred_software" will work you must that python3 app will appear in "App execution aliases" for that you can run python3 from the command promot.
