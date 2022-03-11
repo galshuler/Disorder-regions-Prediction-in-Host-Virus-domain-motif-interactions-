@@ -14,11 +14,11 @@ This project is run in python 3.9 Using the following packages:
  
 The script only work on Python 3 and must have an active internet connection (for download files from the website).
 
-### input data
+## input data
 - elm_classes.tsv
 - elm_instances.tsv
 
-### Recommended run order
+## Recommended run order
 Run the script in the order of the functions:
 - a.) make_dictionary_match_uniprot_regex - A function for analysis of information between two different dataset : elm instances and elm classes by tsv format.
 -	b.) download_uniport_seq - A function for download the species protein sequences of the unique uniprot id from uniprot server.
@@ -30,10 +30,10 @@ Run the script in the order of the functions:
 In order that the function "apply_iupred_software" will work you must that python3 app will appear in "App execution aliases" for that you can run python3 from the command promot.
 If it is not installed it is possible to download for free from Microsoft Store.  
 
-### Iupred script and data
+## Iupred script and data
 - The scripts iupred2a iupred2a_lib and data folder use to run iupred software.
 
-### output data
+## output data
 - Fasta_seq_protein_uniprot_virus.fasta.
 - Fasta_seq_protein_uniprot_human.fasta.
 - folder sequence_uniprot_virus.
@@ -42,7 +42,7 @@ If it is not installed it is possible to download for free from Microsoft Store.
 - folder result_iupred_human.
 - result_figures - scatter plot , box plot , histogram.
 
-### Summary
+## Summary
 - Project overview and conclusion.pdf
 - It should take about 30 minutes to finish running the script.
 
