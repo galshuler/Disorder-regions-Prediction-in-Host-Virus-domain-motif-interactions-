@@ -42,6 +42,7 @@ If it is not installed it is possible to download for free from Microsoft Store.
 - folder result_iupred_human.
 - result_figures - scatter plot , box plot , histogram.
 
-
-#### It should take about 30 minutes to finish running the script.
+## Summary
+- Project overview and conclusion.pdf
+- It should take about 30 minutes to finish running the script.
 
